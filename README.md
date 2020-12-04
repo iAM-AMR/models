@@ -1,4 +1,4 @@
-![TLP Level Badge](https://img.shields.io/badge/TLP-AMBER-yellow)
+![TLP Level Badge](https://img.shields.io/badge/TLP-WHITE-white)
 
 # Welcome to the iAM.AMR Model Directory
 
