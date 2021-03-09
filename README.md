@@ -7,17 +7,22 @@ This repository contains links and download instructions for the iAM.AMR models.
 
 ## Contents
 
-- Directory
-  - Conventions
-  - Models
-    - Hub
-    - Free Edition
-    - Story Models
-  - Modules
-    - Hub
-    - Swine Data
-- Get and Run
-  - More Resources
+- [iAM.AMR Model and Module Directory](#iamamr-model-and-module-directory)
+  - [Contents](#contents)
+  - [About](#about)
+- [Directory](#directory)
+  - [Story Models](#story-models)
+    - [iAM.AMR.3GC](#iamamr3gc)
+    - [iAM.AMR.CHI](#iamamrchi)
+    - [iAM.AMR.FQC](#iamamrfqc)
+    - [iAM.AMR.PIG](#iamamrpig)
+  - [Other Models and Modules](#other-models-and-modules)
+    - [The Hub Module](#the-hub-module)
+    - [The Swine Weaner Prevalence Module](#the-swine-weaner-prevalence-module)
+    - [iAM.AMR.FREE Model](#iamamrfree-model)
+- [Conventions](#conventions)
+- [Get and Run a Story Model](#get-and-run-a-story-model)
+- [More Resources](#more-resources)
 
 
 ## About
