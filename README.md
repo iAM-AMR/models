@@ -1,8 +1,9 @@
 ![TLP Level Badge](https://img.shields.io/badge/TLP-WHITE-white)
 
-# Welcome to the iAM.AMR Model Directory
+# iAM.AMR Model and Module Directory
 
-This repository contains links to all of the available iAM.AMR models, and provides basic download instructions.
+This repository contains links and download instructions for the iAM.AMR models. 
+
 
 ## Contents
 
@@ -19,77 +20,68 @@ This repository contains links to all of the available iAM.AMR models, and provi
   - More Resources
 
 
+## About
+
+Each iAM.AMR model is referred to as a *story*, and represents a specific drug-microbe-commodity combination. Each of these *story models* are connected to a central *Hub module* (and various other modules) to provide data in a plug-and-play fashion.
+
+A copy of the [iAM.AMR.HUB](https://goto.iam.amr.pub/repo-hub) module **is required to run the iAM.AMR story models**.
+
+
 
 # Directory
 
-You can find more information on models and modules [in the documentation.](https://goto.iam.amr.pub/docs_model_framework)
+## Story Models
 
-In brief, the iAM.AMR models are organized into **stories**, or collections of one or more drug-microbe-commodity combinations that together describe an important facet of resistance in the agri-food production system in Canada.
+### [iAM.AMR.3GC](https://github.com/iAM-AMR/iAM.AMR.MODEL_3GC)
 
-These **story models** are connected to a communal **Hub module**, and various other *modules* to provide data in a standardized plug-and-play fashion.
+![badge-forerunner](https://img.shields.io/badge/model-forerunner-blue)
 
-**To run the story models, you must have a copy of the Hub module.**
+A model exploring third-generation cephalosporin resistance across all animal species.
 
 
-## Conventions
+### [iAM.AMR.CHI](https://github.com/iAM-AMR/iAM.AMR.MODEL_CHI)
 
-Models are named `iAM.AMR.XYZ`, where `XYZ` is a string of 3 -- 4 letters or numbers describing the model. The repositories are are named `iAM.AMR.MODEL_XYZ`.
+![badge-forerunner](https://img.shields.io/badge/model-forerunner-blue)
 
-You should always download a *release* where available.
+A model exploring resistance to all antimicrobials and pathogens in chickens.
+
+
+### [iAM.AMR.FQC](https://github.com/iAM-AMR/iAM.AMR.MODEL_FQC)
+
+![badge-forerunner](https://img.shields.io/badge/model-forerunner-blue)
+
+A model exploring resistance to fluoroquinolones for Campylobacter in swine and cattle.
+
+
+### [iAM.AMR.PIG](https://github.com/iAM-AMR/iAM.AMR.MODEL_PIG)
+
+![badge-story](https://img.shields.io/badge/model-story-yellow)
+
+A model exploring pigs.
+
+
+
+## Other Models and Modules
+
+### [The Hub Module](https://goto.iam.amr.pub/repo-hub)
 
 See the [documentation](https://goto.iam.amr.pub/docs_model_framework) for more details.
 
+### [The Swine Weaner Prevalence Module](https://github.com/iAM-AMR/iAM.AMR.MOD_swine_weaner_prev)
 
-## Models
+Data including the prevalence of resistance at early stages in swine production.
 
-### The Hub Module
+### [iAM.AMR.FREE Model](https://github.com/iAM-AMR/iAM.AMR.MODEL_FREE)
 
-[Link](https://goto.iam.amr.pub/repo-hub)
-
-See the [documentation](https://goto.iam.amr.pub/docs_model_framework) for more details.
-
-
-### iAM.AMR Free Edition Model
-
-The *Free Edition* models is maintained by [@chapb](https://goto.amr.pub/chapb), and is the reference for core model implementation. 
+The *Free Edition* models is maintained by [@chapb](https://goto.amr.pub/chapb), and is the reference for core model implementation.
 
 
-### Story Models
 
-#### iAM.AMR Story Models
-
-Add here.
-
-
-#### iAM.AMR Forerunner Story Models
-
-The forerunner story models are maintained and standardizied by [@chapb](https://goto.amr.pub/chapb), and are the reference for story-model feature implementation. 
-
-- iAM.AMR.3GC
-- iAM.AMR.CHI
-- iAM.AMR.FQC
-
+# Conventions
 
 ![Model Status](assets/model_status.png)
 
-
-
-
-
-## Modules
-
-### The Hub Module
-
-[Link](https://goto.iam.amr.pub/repo-hub)
-
-See the [documentation](https://goto.iam.amr.pub/docs_model_framework) for more details.
-
-
-### Pig Data
-
-TODO
-
-
+Generally, *story models* are named `iAM.AMR.XYZ` (and stored in a `iAM.AMR.MODEL_XYZ` repository), where `XYZ` is a string of three to four characters that uniquely describe the model. See the [relevant documentation](https://goto.iam.amr.pub/docs_model_framework) for more details.
 
 
 
@@ -105,7 +97,8 @@ TODO
 1. Evaluate the main *Output node* to run the entire model in its default state
 
 
-## More Resources
+
+# More Resources
 
 - [GitHub Download Instructions](https://goto.iam.amr.pub/gh-start-here-github)
 - [Documentation](https://goto.iam.amr.pub/docs)
