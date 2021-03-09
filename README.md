@@ -39,28 +39,28 @@ A copy of the [iAM.AMR.HUB](https://goto.iam.amr.pub/repo-hub) module **is requi
 
 ### [iAM.AMR.3GC](https://github.com/iAM-AMR/iAM.AMR.MODEL_3GC)
 
-![badge-forerunner](https://img.shields.io/badge/model-forerunner-blue)
+![badge-story](https://img.shields.io/badge/model-story-green) ![badge-forerunner](https://img.shields.io/badge/model-forerunner-blue)
 
 A model exploring third-generation cephalosporin resistance across all animal species.
 
 
 ### [iAM.AMR.CHI](https://github.com/iAM-AMR/iAM.AMR.MODEL_CHI)
 
-![badge-forerunner](https://img.shields.io/badge/model-forerunner-blue)
+![badge-story](https://img.shields.io/badge/model-story-green) ![badge-forerunner](https://img.shields.io/badge/model-forerunner-blue)
 
 A model exploring resistance to all antimicrobials and pathogens in chickens.
 
 
 ### [iAM.AMR.FQC](https://github.com/iAM-AMR/iAM.AMR.MODEL_FQC)
 
-![badge-forerunner](https://img.shields.io/badge/model-forerunner-blue)
+![badge-story](https://img.shields.io/badge/model-story-green) ![badge-forerunner](https://img.shields.io/badge/model-forerunner-blue)
 
 A model exploring resistance to fluoroquinolones for Campylobacter in swine and cattle.
 
 
 ### [iAM.AMR.PIG](https://github.com/iAM-AMR/iAM.AMR.MODEL_PIG)
 
-![badge-story](https://img.shields.io/badge/model-story-yellow)
+![badge-story](https://img.shields.io/badge/model-story-green)
 
 A model exploring pigs.
 
@@ -70,13 +70,19 @@ A model exploring pigs.
 
 ### [The Hub Module](https://goto.iam.amr.pub/repo-hub)
 
+![badge-module](https://img.shields.io/badge/module-core-red)
+
 See the [documentation](https://goto.iam.amr.pub/docs_model_framework) for more details.
 
 ### [The Swine Weaner Prevalence Module](https://github.com/iAM-AMR/iAM.AMR.MOD_swine_weaner_prev)
 
+![badge-module](https://img.shields.io/badge/module-data-orange)
+
 Data including the prevalence of resistance at early stages in swine production.
 
 ### [iAM.AMR.FREE Model](https://github.com/iAM-AMR/iAM.AMR.MODEL_FREE)
+
+![badge-story](https://img.shields.io/badge/model-story-green) ![badge-forerunner](https://img.shields.io/badge/model-forerunner-blue)
 
 The *Free Edition* models is maintained by [@chapb](https://goto.amr.pub/chapb), and is the reference for core model implementation.
 
